@@ -1,4 +1,4 @@
-# Openwrt Edgerouter X Migration Script for Openwrt 24.10
+# EdgeRouter X Migration Script for ImmortalWrt 24.10
 
 The OEM layout on the Edgerouter X has two kernel slots that are 3MB each. Starting with Linux 6.6 included with Openwrt 24.10 the kernel images no longer fit into this layout, thus when upgrading to Openwrt 24.10 users will need to migrate to the new layout.
 

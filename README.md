@@ -1,4 +1,4 @@
-# OpenWrt Edgerouter X 针对 OpenWrt 24.10 的迁移脚本
+# EdgeRouter X 针对 ImmortalWrt 24.10 的迁移脚本
 
 EdgeRouter X (ER-X) 设备的 OEM（原始设备制造商）分区布局包含两个内核槽位，每个槽位大小为 3MB。  
 
