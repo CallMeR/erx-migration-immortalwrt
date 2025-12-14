@@ -13,9 +13,9 @@ if [ ! -d /etc/ssl/certs/ ]; then
     WGET_OPTS="--no-check-certificate"
 fi
 
-REL="24.10.1"
-SITE="https://downloads.openwrt.org/releases/${REL}/targets/ramips/mt7621/"
-SNAPSITE="https://downloads.openwrt.org/releases/24.10-SNAPSHOT/targets/ramips/mt7621/"
+REL="24.10.4"
+SITE="https://downloads.immortalwrt.org/releases/${REL}/targets/ramips/mt7621/"
+SNAPSITE="https://downloads.immortalwrt.org/releases/24.10-SNAPSHOT/targets/ramips/mt7621/"
 
 if [ -n "$SNAPSHOT" ]; then
     SITE=${SNAPSITE}
