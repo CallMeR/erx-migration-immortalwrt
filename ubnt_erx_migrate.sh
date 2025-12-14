@@ -56,7 +56,7 @@ confirm_migration() {
 
 download_image(){
     echo "Downloading $SITE/$FILE"
-    wget ${WGET_OPTS} -qO "$tar_file" "$SITE/$FILE"
+    wget ${WGET_OPTS} -O "$tar_file" "$SITE/$FILE"
     sha256=$(wget ${WGET_OPTS} -qO- "$SITE/sha256sums" | grep "$PATTERN" | cut -d ' ' -f1)
     sha256local=$(sha256sum "$tar_file" | cut -d ' ' -f1)
     if [ "$sha256" != "$sha256local" ]; then
